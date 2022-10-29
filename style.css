@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+    background-color: lightgray;
+}
+
+.cover{
+    width: 40%;
+    position: fixed;
+    background-image: url('profile.jpeg');
+    background-attachment: fixed;
+    background-size:cover;
+    height: 100%;
+}
+
+.details{
+    margin-left: 40%;
+    padding-left: 10px;
+}
+
+.details .top-nav {
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+.top-nav a {
+    padding: 10px;
+    margin-top: 10px;
+    min-width: 90px;
+}
+
+a:active, a:visited, a:link {
+    color: #000000;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover {
+    color:#0524c2;
+}
+
+.profile-image {
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.profile-image img{
+    
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+}
+
+.title{
+    padding-left: 10px;
+}
+
+.info{
+    font-size: 15px;
+    margin-top: 12px;
+    padding: 10px 10px 10px 0px;
+}
+
+.contact-form {
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+
+input.form{
+    width:100%;
+    height: 25px;
+    margin:5px 0px;
+}
+
+.message-form{
+    width:100%;
+    margin:5px 0px;
+}
+
+input.submit{
+    padding:5px;
+}
+
